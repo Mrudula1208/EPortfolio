@@ -1,0 +1,140 @@
+body{
+    background-color:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    min-height: 1000px;
+    min-width: 1000px;
+     background: #fff;
+     margin: 60px;
+     display: grid;
+     grid-template-columns: 1fr 3fr;
+     box-shadow: 0 35px 55px rgba(0, 0, 0, 1);
+}
+.container .left{
+    position: relative;
+    background:darkblue;
+    padding: 40px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(217, 206, 206);
+}
+
+.image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.image img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.profile h2{
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.profile span{
+    font-size: 0.7em;
+    font-weight: 250;
+    text-align: center;
+}
+.contactinfo{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+.contact information ul{
+    position: relative;
+}
+.contactinfo li{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(4, 43, 55);
+}
+.contactinfo ul li span
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactinfo .education li{
+    margin-bottom: 15px;
+
+}
+.contactinfo .education h5{
+    color: aqua;
+    font-weight: 500;
+}
+.contactinfo .education h4{
+    color: cornflowerblue;
+}
+.container .right{
+    position: relative;
+    background:#fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.title2{
+    color: midnightblue;
+}
+p{
+    color:#333;
+}
+.about skills ul{
+    margin: 0;
+
+}
+.about skills li{
+    margin: 3px 0;
+
+}
+.talent{
+    width: 32%; float: left;
+}
+.talent h2{
+    margin-bottom: 2px;
+}
+
+.about achievement  .yui-u{
+    width:80.2%;
+   
+}
+.about achievement div.first{
+    width:12.3%;
+ 
+}
+
+.yui-u h2{
+    color: rgb(6, 2, 31);
+
+}
